@@ -1,0 +1,1 @@
+<div class="text-center"><h1>pagina de Salida</h1></div>

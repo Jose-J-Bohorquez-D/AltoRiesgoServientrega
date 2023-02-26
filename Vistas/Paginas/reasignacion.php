@@ -1,0 +1,1 @@
+<div class="text-center"><h1>pagina de reasignacion</h1></div>

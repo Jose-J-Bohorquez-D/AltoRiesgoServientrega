@@ -1,0 +1,8 @@
+asi se crea un objeto y va a ejecutar sin filtro y de manera automatica el metodo que se le solicita a la clase 
+$login = new Ctlr_usuarios();
+$login -> ingreso_usuarios_ctlr();
+
+
+asi esta ejecutanto el metodo pero la respuesta del metodo se almacena en una variable versatil que luego se puede utilizar 
+para varias cosas
+$rta = Mod_Usuarios::ingreso_usuario_Mdl($tabla,$item,$valor);
