@@ -12,16 +12,20 @@ class Mvc_Ctlr
 	{
 		if (isset($_GET['act'])){
 
-			if (empty($_GET['act'])){
+			if (!empty($_GET['act'])){
 
 				$contenidoUrlCtlr=$_GET['act'];
 
 				$rta=Mvc_Mod::urls_mod($contenidoUrlCtlr);
 
+				#var_dump($rta);
+
+				include $rta;
+
 			}
 		}else{
 
-			require_once("Vistas/Paginas/login.php");
+			require_once("Vistas/Paginas/inicio.php");
 			
 		}
 	}

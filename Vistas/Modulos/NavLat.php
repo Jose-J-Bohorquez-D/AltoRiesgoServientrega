@@ -1,7 +1,7 @@
 <!-- Sidebar Start -->
 <div class="sidebar pe-4 pb-3">
     <nav class="navbar bg-light navbar-light">
-        <a href="index.php" class="navbar-brand mx-4 mb-3">
+        <a href="index.php?act=inicio" class="navbar-brand mx-4 mb-3">
             <h4 class="text-primary">
                 <!--<i class="fa fa-hashtag me-2"></i>-->
                 <i class="fa fa-motorcycle"></i>
@@ -19,33 +19,33 @@
             </div>
         </div>
         <div class="navbar-nav w-100">
-            <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a href="index.php?act=inicio" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle text-nowrap" data-bs-toggle="dropdown"><i class="fa fa-screwdriver-wrench me-2"></i>Gestion</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="index.php" class="dropdown-item">Usuarios</a>
-                    <a href="index.php" class="dropdown-item">Roles</a>
-                    <a href="index.php" class="dropdown-item">Permisos</a>
+                    <a href="index.php?act=usuarios" class="dropdown-item">Usuarios</a>
+                    <a href="index.php?act=roles" class="dropdown-item disabled">Roles</a>
+                    <a href="index.php?act=permisos" class="dropdown-item disabled">Permisos</a>
                 </div>
             </div>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-list-check me-2"></i>Procesos</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="index.php" class="dropdown-item">Ingreso A Bodega</a>
-                    <a href="index.php" class="dropdown-item">Reasignacion</a>
-                    <a href="index.php" class="dropdown-item">Impresion Manifiesto</a>
+                    <a href="index.php?act=bodega" class="dropdown-item">Ingreso A Bodega</a>
+                    <a href="index.php?act=reasignacion" class="dropdown-item">Reasignacion</a>
+                    <a href="index.php?act=impManif" class="dropdown-item">Impresion Manifiesto</a>
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-chart-pie me-2"></i>Reportes</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-chart-pie me-2"></i>Reportes</a> 
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="index.php" class="dropdown-item">Diario</a>
-                    <a href="index.php" class="dropdown-item">Semanal</a>
-                    <a href="index.php" class="dropdown-item">Quincenal</a>
-                    <a href="index.php" class="dropdown-item">Mensual</a>
+                    <a href="index.php" class="dropdown-item disabled">Diario</a>
+                    <a href="index.php" class="dropdown-item disabled">Semanal</a>
+                    <a href="index.php" class="dropdown-item disabled">Quincenal</a>
+                    <a href="index.php" class="dropdown-item disabled">Mensual</a>
                 </div>
             </div>
-            <a href="index.php" class="nav-item nav-link"><i class="fa fa-user-lock"></i>Cerrar Sesion</a>
+            <a href="index.php?act=salir" class="nav-item nav-link"><i class="fa fa-user-lock"></i>Cerrar Sesion</a>
         </div>
     </nav>
 </div>

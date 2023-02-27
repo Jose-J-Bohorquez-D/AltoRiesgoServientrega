@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="En">
 <?php require_once("Vistas/Modulos/Head_y_Dependencias.php"); ?>
@@ -10,7 +11,7 @@
         }
         else
         {
-            if (empty($_SESSION['usu_ok'])) 
+            if ($_SESSION['usu_ok'] == "ok") 
                 {?>
                     <!-- Spinner End -->
                     <?php require_once("Vistas/Modulos/NavLat.php"); ?>

@@ -2,9 +2,22 @@
 
 class Mvc_Mod
 {
-	public function urls_mod()
+	public static function urls_mod($urlMdl)
 	{
-		return "esta es la funcion del modelo que regresa la pagina";
+		if ($urlMdl == "salir" ||
+			$urlMdl == "roles" ||
+			$urlMdl == "inicio" ||
+			$urlMdl == "bodega" ||			
+			$urlMdl == "impManif" ||
+			$urlMdl == "permisos" ||
+			$urlMdl == "usuarios" ||
+			$urlMdl == "reasignacion") {
+
+			$pagina = "Vistas/Paginas/".$urlMdl.".php";
+
+			return $pagina;
+
+		}
 	}
 
 

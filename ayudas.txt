@@ -1,0 +1,9 @@
+para ajustar el htaccess
+https://www.youtube.com/watch?v=cyfFdFqTWdo
+
+Options All -Indexes //impedir el acceso a las rutas del sistema
+ReWriteEngine On //reescritura
+RewriteRule ^([a-zA-Z0-9/]+)$ index.php?act=$1 //url amigable
+
+canal de php bueno interesante
+https://www.youtube.com/@CarlosAlfaroSV/videos
