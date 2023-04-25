@@ -22,7 +22,7 @@ class Ctlr_Usuarios
 			}else{
 				if ($rta["correo_usu"] == $_POST['ingLogUsuEmail'] && $rta["pwd_usu"] == $_POST['ingLogUsuPwd']) {
 					echo '<div class="alert alert-success" role="alert"> Bienvenido al sistema </div>';
-					$_SESSION['usu_ok'] = "ok";
+					$_SESSION['usu'] = "ok";
 					echo '<script type="text/javascript"> window.location.href = "index.php?act=inicio";</script>';
 				}else{
 					echo '<div class="alert alert-danger" role="alert"> Error, Usuario o contraseña invalidos </div>';
