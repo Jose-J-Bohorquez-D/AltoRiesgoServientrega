@@ -11,8 +11,8 @@
         }
         else
         {
-            if ($_SESSION['usu_ok'] == "ok") 
-                {?>
+            if ($_SESSION['usu_ok'] == "ok")
+                {  ?>
                     <!-- Spinner End -->
                     <?php require_once("Vistas/Modulos/NavLat.php"); ?>
                     <!-- Content Start -->
