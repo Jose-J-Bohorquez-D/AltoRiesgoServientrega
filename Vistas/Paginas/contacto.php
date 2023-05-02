@@ -1,1 +1,0 @@
-<div class="text-center"><h1>pagina de contacto</h1></div>

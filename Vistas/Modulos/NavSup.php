@@ -23,7 +23,8 @@ else
   <div class="container-fluid">
     <a class="navbar-brand d-flex" href="index.php?act=inicio">
     <h2 class="text-primary mb-0"><i class="fa fa-motorcycle"></i></h2>
-    olympus express shipments</a>
+      olympus shipments
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,10 +38,10 @@ else
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php?act=servicios">Servicios</a>
-        </li>
+        </li><!--
         <li class="nav-item">
           <a class="nav-link" href="index.php?act=contacto">Contacto</a>
-        </li>
+        </li>-->
         <!--
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,8 +57,8 @@ else
     -->
       </ul>
       <div>
-          <a href="index.php?act=login" type="button" class="btn btn-sm btn-outline-info m-2">Ingreso</a>
-          <a href="index.php?act=registro" type="button" class="btn btn-sm btn-outline-warning m-2">Registro</a>
+          <a href="index.php?act=login" type="button" class="btn btn-primary btn-sm btn-lg">Ingreso</a>
+          <!--<a href="index.php?act=registro" type="button" class="btn btn-sm btn-outline-warning m-2">Registro</a>-->
       </div>
       <!--
       <form class="d-flex" role="search">

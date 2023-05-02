@@ -5,7 +5,7 @@
                 <div class="d-flex align-items-center justify-content-between mb-3">
                     <div class="row text-center d-flex justify-content-center">
                         <h2 class="text-primary"><i class=""></i>Alto Riesgo</h2>
-                        <h3 class="text-primary">{Su aliado estrategico}</h3><br><br><br>
+                        <h3 class="text-primary">Su aliado estrategico</h3><br><br><br>
                         <h5>Ingrese a su cuenta</h5>
                     </div>
                 </div>
